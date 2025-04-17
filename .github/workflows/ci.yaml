@@ -15,7 +15,7 @@ jobs:
       - name: Set up JDK 11  # Configura Java
         uses: actions/setup-java@v3
         with:
-          java-version: '11'
+          java-version: '17'
           distribution: 'temurin'
 
       - name: Cache Maven local repository  # Cache delle dipendenze Maven
